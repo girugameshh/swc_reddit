@@ -6,9 +6,9 @@ app = Flask(__name__, static_url_path='/static')
 @app.route('/', methods=['GET', 'POST'])
 def index():
     reddit = praw.Reddit(
-        client_id="A6k4kNua82Sf779YcrDuEw",
-        client_secret="2OqQsCBo3AFC0V7JuAlo8lHQ3BUQDQ",
-        user_agent="windows:v1.0 (by /u/banozica)",
+        client_id="YOUR_ID",
+        client_secret="YOUR_SECRET",
+        user_agent="SOMETHING_HERE",
     )
 
     subreddit_name = request.args.get('subreddit', 'all')

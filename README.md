@@ -1,6 +1,6 @@
 rudimentary script, displays top 10 reddit threads in html
 
-Requerements / Installation 
+Requirements / Installation 
 
 pip install praw
 

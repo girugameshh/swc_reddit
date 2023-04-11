@@ -1,7 +1,9 @@
 rudimentary script, displays top 10 reddit threads in html
 
 Requerements / Installation 
+
 pip install praw
+
 pip install flask
 
 
